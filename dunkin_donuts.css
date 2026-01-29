@@ -7,6 +7,7 @@ body {
     align-items: center;
     background: linear-gradient(135deg, #ff7eb3, #ffb347);
     font-family: "Comic Sans MS", "Poppins", sans-serif;
+    margin: 0 16px;
 }
 
 .card {
