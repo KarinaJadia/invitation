@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <div class="card">
+    <div class="card" id="card">
         <h1>Do you want to get Dunkin Donuts????</h1>
 
         <p class="datetime">
@@ -29,10 +29,17 @@
 
         noBtn.addEventListener("click", () => {
             noCount++;
-            counter.textContent = `Times you said no: ${noCount}`;
 
             yesScale += 0.15;
             yesBtn.style.transform = `scale(${yesScale})`;
+            
+            if (noCount === 10) {
+                card.innerHTML = "<h1>okay fine whatever you hate me:(</h1>";
+            }
+        });
+
+        yesBtn.addEventListener("click", () => {
+            card.innerHTML = "<h1>YAYYYY CAN'T WAIT</h1>";
         });
     </script>
 </body>
