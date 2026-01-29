@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff7eb3, #ffb347);
+    font-family: "Comic Sans MS", "Poppins", sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+}
+
+h1 {
+    color: #ff6f91;
+    margin-bottom: 10px;
+}
+
+.datetime {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.yes {
+    background-color: #ff6f91;
+    color: white;
+}
+
+.no {
+    background-color: #f1f1f1;
+    color: #555;
+}
