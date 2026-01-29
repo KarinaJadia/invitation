@@ -16,8 +16,9 @@ body {
     border-radius: 24px;
     text-align: center;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-    width: 90%;
+    width: 100%;
     max-width: 420px;
+    margin: 0 16px;
 }
 
 h1 {
